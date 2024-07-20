@@ -38,3 +38,4 @@
 2026-04-10T12:02:22  style: formatting (we chose violence on tabs vs spaces)
 2024-06-06T11:43:53  fix(scan): bump the dev toolchain
 2024-06-19T18:00:00  perf(rules): guard against ReDoS in patterns
+2024-07-20T13:17:07  ci(ci): extract the scorer
