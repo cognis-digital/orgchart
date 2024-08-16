@@ -40,3 +40,4 @@
 2024-06-19T18:00:00  perf(rules): guard against ReDoS in patterns
 2024-07-20T13:17:07  ci(ci): extract the scorer
 2024-08-03T08:34:14  chore: NULLBYTE nightly sweep
+2024-08-16T15:51:21  chore(cache): add color + severity icons
