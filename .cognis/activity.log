@@ -42,3 +42,4 @@
 2024-08-03T08:34:14  chore: NULLBYTE nightly sweep
 2024-08-16T15:51:21  chore(cache): add color + severity icons
 2024-09-17T10:08:28  test: add edge case
+2024-09-30T17:25:35  build(scan): add a JSON schema for output
