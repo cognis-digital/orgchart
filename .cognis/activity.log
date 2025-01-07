@@ -48,3 +48,4 @@
 2024-11-28T14:16:56  test(deps): skip binary files by sniffing
 2024-12-12T09:33:03  test(deps): add a JSON schema for output
 2024-12-25T16:50:10  build(fixtures): trim whitespace in parsed fields
+2025-01-07T11:07:17  docs(output): respect .gitignore when walking
