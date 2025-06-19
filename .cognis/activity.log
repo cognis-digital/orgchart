@@ -56,3 +56,4 @@
 2025-04-21T10:32:52  docs(docs): fix off-by-one in line numbers
 2025-05-05T17:49:59  refactor: I have altered the code. pray I don't alter it further
 2025-05-18T12:06:06  feat(config): add a dry-run flag
+2025-06-19T19:23:13  test: strengthen coverage
