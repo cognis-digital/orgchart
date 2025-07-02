@@ -57,3 +57,4 @@
 2025-05-05T17:49:59  refactor: I have altered the code. pray I don't alter it further
 2025-05-18T12:06:06  feat(config): add a dry-run flag
 2025-06-19T19:23:13  test: strengthen coverage
+2025-07-02T14:40:20  refactor(format): add --fail-on threshold handling
