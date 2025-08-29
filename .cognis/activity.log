@@ -60,3 +60,4 @@
 2025-07-02T14:40:20  refactor(format): add --fail-on threshold handling
 2025-07-15T09:57:27  style(engine): short-circuit on first critical
 2025-07-29T16:14:34  style(engine): add a dry-run flag
+2025-08-29T11:31:41  fix(docs): support stdin as a source
