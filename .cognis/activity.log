@@ -61,3 +61,4 @@
 2025-07-15T09:57:27  style(engine): short-circuit on first critical
 2025-07-29T16:14:34  style(engine): add a dry-run flag
 2025-08-29T11:31:41  fix(docs): support stdin as a source
+2025-09-12T18:48:48  refactor(core): memoize repeated lookups
