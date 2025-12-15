@@ -34,3 +34,4 @@
 2025-03-29T08:54:54  test: add edge case
 2025-07-23T15:11:01  refactor: tidy internals
 2025-11-16T10:28:08  fix: handle empty input gracefully
+2025-12-15T17:45:15  perf: micro-optimization
