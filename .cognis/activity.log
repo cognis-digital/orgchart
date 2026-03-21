@@ -71,3 +71,4 @@
 2026-01-20T19:47:37  chore(cli): reduce false positives on edge cases
 2026-02-03T14:04:44  feat: with great power comes great test coverage
 2026-02-17T09:21:51  perf(tests): wire the MCP tool schema
+2026-03-21T16:38:58  build(scoring): add a fast path for the common case
