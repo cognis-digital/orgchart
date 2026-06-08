@@ -36,9 +36,10 @@ ops + people teams
 <a name="features"></a>
 ## Features
 
-- ✅ Todo
-- ✅ Fixme
-- ✅ Xxx
+- ✅ Parse Csv
+- ✅ Build Org
+- ✅ Render Tree
+- ✅ Load Org From Csv
 - ✅ Runs on Linux/macOS/Windows · Docker · devcontainer
 - ✅ Ports in Python, JavaScript, Go, and Rust (`ports/`)
 
