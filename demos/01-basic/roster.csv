@@ -1,0 +1,11 @@
+employee_id,full_name,job_title,reports_to,base_salary
+1,Dana Reyes,CEO,,420000
+2,Marcus Lee,VP Engineering,1,290000
+3,Priya Shah,VP People,1,265000
+4,Sam Okafor,Eng Manager,2,210000
+5,Lena Novak,Eng Manager,2,205000
+6,Tom Becker,Software Engineer,4,165000
+7,Aiko Tan,Software Engineer,4,160000
+8,Jordan Diaz,Software Engineer,5,158000
+9,Mei Chen,Recruiter,3,120000
+10,Omar Haddad,People Partner,3,135000
