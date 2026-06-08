@@ -1,0 +1,10 @@
+{
+  "name": "@cognis/orgchart",
+  "version": "0.2.0",
+  "description": "JavaScript port of orgchart (Cognis Neural Suite)",
+  "bin": {
+    "orgchart": "index.js"
+  },
+  "license": "LicenseRef-COCL-1.0",
+  "type": "module"
+}
