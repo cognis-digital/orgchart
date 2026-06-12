@@ -16,7 +16,7 @@
 </div>
 
 ```bash
-pip install cognis-orgchart
+pip install "git+https://github.com/cognis-digital/orgchart.git"
 orgchart scan .            # → prioritized findings in seconds
 ```
 
@@ -49,7 +49,7 @@ ops + people teams
 ## Quick start
 
 ```bash
-pip install cognis-orgchart
+pip install "git+https://github.com/cognis-digital/orgchart.git"
 orgchart --version
 orgchart scan .                       # scan current project
 orgchart scan . --format json         # machine-readable
