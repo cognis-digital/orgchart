@@ -20,6 +20,33 @@ pip install cognis-orgchart
 orgchart scan .            # → prioritized findings in seconds
 ```
 
+## Usage — step by step
+
+`orgchart` builds org charts and headcount plans from a CSV / HRIS export. Every subcommand takes a CSV path (or `-` for stdin).
+
+1. **Install**:
+   ```bash
+   pip install -e .
+   orgchart --version
+   ```
+2. **Render the reporting tree** from an export:
+   ```bash
+   orgchart tree employees.csv
+   ```
+3. **Compute metrics** — per-employee span-of-control and headcount roll-up:
+   ```bash
+   orgchart metrics employees.csv
+   ```
+4. **Read the output** as JSON, or pipe via stdin:
+   ```bash
+   orgchart --format json summary employees.csv | jq .
+   cat employees.csv | orgchart tree -
+   ```
+5. **Automate in CI** — validate structural integrity (cycles, missing managers) on every HRIS sync:
+   ```bash
+   orgchart validate employees.csv || exit 1
+   ```
+
 ## Contents
 
 - [Why orgchart?](#why) · [Features](#features) · [Quick start](#quick-start) · [Example](#example) · [Architecture](#architecture) · [AI stack](#ai-stack) · [How it compares](#how-it-compares) · [Integrations](#integrations) · [Install anywhere](#install-anywhere) · [Related](#related) · [Contributing](#contributing)
