@@ -20,6 +20,12 @@ pip install "git+https://github.com/cognis-digital/orgchart.git"
 orgchart scan .            # → prioritized findings in seconds
 ```
 
+<!-- cognis:layman:start -->
+## What is this?
+
+orgchart turns a simple spreadsheet of employees into a visual org chart and headcount report — no account, no subscription, and nothing to configure. You export your team roster from your HR system (or just make a CSV with names, titles, and who each person reports to), hand it to orgchart, and it draws the reporting tree, counts total headcount at every level, and summarises span-of-control in seconds. It is built for operations and people teams who want a fast, scriptable way to see the structure of their organisation without paying for another SaaS tool.
+<!-- cognis:layman:end -->
+
 ## Contents
 
 - [Why orgchart?](#why) · [Features](#features) · [Quick start](#quick-start) · [Example](#example) · [Architecture](#architecture) · [AI stack](#ai-stack) · [How it compares](#how-it-compares) · [Integrations](#integrations) · [Install anywhere](#install-anywhere) · [Related](#related) · [Contributing](#contributing)
@@ -46,6 +52,42 @@ ops + people teams
 <div align="right"><a href="#top">↑ back to top</a></div>
 
 <a name="quick-start"></a>
+<!-- cognis:install:start -->
+## Install
+
+`orgchart` is source-available (not published to PyPI) — every method below installs
+straight from GitHub. Pick whichever you prefer; the one-line scripts auto-detect
+the best tool available on your machine.
+
+**One-liner (Linux / macOS):**
+```sh
+curl -fsSL https://raw.githubusercontent.com/cognis-digital/orgchart/HEAD/install.sh | sh
+```
+
+**One-liner (Windows PowerShell):**
+```powershell
+irm https://raw.githubusercontent.com/cognis-digital/orgchart/HEAD/install.ps1 | iex
+```
+
+**Or install manually — any one of:**
+```sh
+pipx install "git+https://github.com/cognis-digital/orgchart.git"     # isolated (recommended)
+uv tool install "git+https://github.com/cognis-digital/orgchart.git"  # uv
+pip install "git+https://github.com/cognis-digital/orgchart.git"      # pip
+```
+
+**From source:**
+```sh
+git clone https://github.com/cognis-digital/orgchart.git
+cd orgchart && pip install .
+```
+
+Then run:
+```sh
+orgchart --help
+```
+<!-- cognis:install:end -->
+
 ## Quick start
 
 ```bash
